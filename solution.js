@@ -39,10 +39,12 @@ const tickets = (payments) => {
   });
 };
 
-console.log([25], ' Expected: true >', tickets([25]));
+/* console.log([25], ' Expected: true >', tickets([25]));
 console.log([25, 25, 50], ' Expected: true >', tickets([25, 25, 50]));
 console.log([25, 25, 25, 50], ' Expected: true >', tickets([25, 25, 25, 50]));
 console.log([25, 25, 25, 50, 100], ' Expected: true >', tickets([25, 25, 25, 50, 100]));
 console.log([25, 25, 25, 100], ' Expected: true >', tickets([25, 25, 25, 100]));
 console.log([25, 100], ' Expected: false >', tickets([25, 100]));
-console.log([25, 25, 50, 50, 100], ' Expected: false >', tickets([25, 25, 50, 50, 100]));
+console.log([25, 25, 50, 50, 100], ' Expected: false >', tickets([25, 25, 50, 50, 100])); */
+
+module.exports = tickets;
