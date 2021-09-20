@@ -1,5 +1,5 @@
 # CASH CHANGE TEST
-Run with npm run start
+Run with `npm run start`
 
-Tests:
-npm run test
+## Tests:
+Run with `npm run test`
